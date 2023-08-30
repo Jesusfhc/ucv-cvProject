@@ -1,0 +1,44 @@
+/*
+Paleta de Colores
+#202D42
+#8D99AE
+#EDF2F4
+#EF233C
+*/
+
+/*Global Styles*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+a {
+    color: EF233C;
+}
+a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 40px;
+}
+/*Header and footer Styles*/
+
+header, footer {
+    background-color: #202D42;
+    color: #8D99AE;
+}
+
+/*Work Experience Styles*/
+
+.experiencia {
+    background-color: #EDF2F4;
+}
+
+/*Education Styles*/
+
+.education {
+    background-color: #8D99AE;
+}
