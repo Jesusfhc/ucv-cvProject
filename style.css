@@ -10,7 +10,7 @@ Paleta de Colores
 
 body{
     font-family: 'Open Sans', sans-serif;
-    
+    margin: 0;
 }
 a {
     color: EF233C;
@@ -23,12 +23,24 @@ h1 {
 }
 h2 {
     font-size: 40px;
+    margin-top: 0;
 }
+
 /*Header and footer Styles*/
 
 header, footer {
     background-color: #202D42;
     color: #8D99AE;
+}
+
+footer {
+    text-align: center;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 40px;
 }
 
 /*Work Experience Styles*/
