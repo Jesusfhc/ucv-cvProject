@@ -11,6 +11,7 @@ Paleta de Colores
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    box-sizing: content-box;
 }
 a {
     color: EF233C;
@@ -31,6 +32,7 @@ h2 {
 header, footer {
     background-color: #202D42;
     color: #8D99AE;
+    
 }
 
 footer {
@@ -41,6 +43,31 @@ footer {
     max-width: 950px;
     margin: 0 auto;
     padding: 40px;
+    overflow: auto;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.profile-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.right-colum {
+    width: 70%;
+    float: left;
+    min-height: 175px;
+}
+
+.left-colum {
+    width: 30%;
+    float: left;
+    min-height: 175px;
 }
 
 /*Work Experience Styles*/
